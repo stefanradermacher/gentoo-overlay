@@ -1,10 +1,10 @@
 # gentoo-overlay
 
-Persönliches Gentoo-Overlay von Stefan Radermacher.
+Personal Gentoo overlay of Stefan Radermacher.
 
     eselect repository add stefanradermacher git https://github.com/stefanradermacher/gentoo-overlay.git
-    emerge --sync stefanradermacher
+    emaint sync -r stefanradermacher
 
-| Paket | Beschreibung |
+| Package | Description |
 |---|---|
-| `kde-apps/okular-mupdf` | MuPDF-Backend für Okular ([Quellen](https://github.com/stefanradermacher/okular-mupdf)) |
+| `kde-apps/okular-mupdf` | MuPDF backend for Okular ([sources](https://github.com/stefanradermacher/okular-mupdf)) |
